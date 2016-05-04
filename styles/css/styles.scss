@@ -1,0 +1,441 @@
+$color-ACCENT: rgb(196,93,110);
+$color-PRIMARY: rgb(28,50,70);
+$emoji-plane: rgb(177,218,240);
+$Smiley-15: rgb(216,215,229);
+$Objects-177: rgb(238,219,176);
+$Objects-140: rgb(123,242,110);
+$Smiley-37: rgb(168,172,242);
+$Orte-38: rgb(195,103,93);
+$Natur-110: rgb(73,176,220);
+$Objects-153: rgb(92,166,136);
+$Smiley-41: rgb(185,245,206);
+$Place-39: rgb(177,218,240);
+$Natur-111: rgb(159,227,255);
+$Objects-05: rgb(242,236,115);
+
+//start of month view
+
+$Smiley-24: rgb(109,189,255);
+$Smiley-42: rgb(159,227,255);
+$Smiley-33: rgb(244,85,103);
+$Smiley-51: rgb(244,137,80);
+$Smiley-12: rgb(247,247,137);
+$Objects-127: rgb(100,210,110);
+$Smiley-126: rgb(0,244,150);
+$Objects-146: rgb(84,210,126);
+$Objects-117: rgb(242,236,115);
+$Objects-172: rgb(74,56,19);
+$Smiley-47: rgb(247,207,22);
+$Natur-69: rgb(17,214,104);
+$Smiley-53: rgb(84,145,168);
+$Smiley-30: rgb(255,166,13);
+$Smiley-29: rgb(59,167,204);
+
+
+
+
+p, span, a, legend, h1, h2, h3, h4, h5, h6 select, input{
+   font-family: 'Oxygen', sans-serif;
+}
+
+p, span, a, legend, input, select {
+   font-size: 16px;
+   line-height: 20px;
+}
+
+h1 {
+   font-size: 38px;
+}
+
+h2 {
+   font-size: 34px;
+}
+
+h3 {
+   font-size: 31px;
+}
+
+h4 {
+   font-size: 28px;
+}
+
+h5 {
+   font-size: 24px;
+}
+
+h6 {
+   font-size: 21px;
+}
+
+
+
+header {
+   #left-header {
+      position: absolute;
+      top: 25px;
+      left: 0px;
+      list-style-type: none;
+      li {
+         float: left;
+         a {
+            padding: 25px;
+            background-color: $color-PRIMARY;
+            color: white;
+            text-decoration: none;
+         }
+         a:hover {
+            background-color: lighten($color-PRIMARY, 5%);
+         }
+      }
+      #active {
+         background-color: $color-ACCENT;
+         padding: 55px 30px;
+         position: relative;
+         top: 30px;
+         font-weight: bold;
+      }
+   }
+   #right-header {
+      display: inline-block;
+      position: absolute;
+      top: 25px;
+      right: 40px;
+      list-style-type: none;
+
+      li {
+         float: left;
+         a {
+            padding: 25px;
+            background-color: $color-PRIMARY;
+            color: white;
+            text-decoration: none;
+         }
+         a:hover {
+            background-color: lighten($color-PRIMARY, 5%);
+         }
+      }
+   }
+}
+
+.cover-photo {
+   height: 475px;
+   left: 0px;
+   top: 0px;
+   background-image: url("../../images/photo-1.jpg");
+   background-size: cover;
+   width: 80%;
+   position: absolute;
+   z-index: -10;
+}
+.blerb {
+   width: 45%;
+   max-width: 450px;
+   height: 475px;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   background-color: $emoji-plane;
+   z-index: -10;
+
+   img {
+      position: relative;
+      padding-left: 50px;
+      top: 185px;
+      float: left;
+      width: 30%;
+   }
+}
+
+.text {
+   margin: 0 auto;
+   top: 515px;
+   width: 750px;
+   position: relative;
+   img {
+      cursor: pointer;
+      position: relative;
+      padding-left: 25px;
+      float: left;
+      width: 40px;
+      img:active {
+         background-color: $color-ACCENT;
+      }
+   }
+   p {
+      margin-bottom: 20px;
+   }
+   h5 {
+      margin-bottom: 15px;
+      text-indent: -25px;
+   }
+   select {
+      margin-bottom: 20px;
+      background-color: $color-ACCENT;
+      color: $color-PRIMARY;
+      font-weight: bold;
+      border: 2px solid $color-ACCENT;
+   }
+   input {
+      cursor: pointer;
+      margin-bottom: 20px;
+      color: $color-PRIMARY;
+      font-weight: bold;
+      border: 2px solid $color-ACCENT;
+   }
+   input:hover {
+      background-color: $color-ACCENT;
+   }
+}
+
+#left-calendar {
+   position: relative;
+   top: 180px;
+   left: 122px;
+   width: 200px;
+   line-height: 120px;
+   text-align: center;
+   #active {
+      background-color: $color-PRIMARY;
+      max-height: 80px;
+      color: white;
+      vertical-align: center;
+   }
+}
+
+#right-calendar {
+   position: relative;
+   top: -95px;
+   left: 400px;
+   width: 700px;
+   .year {
+      margin-bottom: 50px;
+      margin-right: 20px;
+      float: left;
+      .contain-year {
+         position: relative;
+         top: 15px;
+         max-height:45px;
+         height: 100px;
+         width: 148px;
+      }
+   }
+   .month {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      float: left;
+      width: 80px;
+      text-align: center;
+      text-indent: -45px;
+      .contain-month {
+         position: relative;
+         top: 15px;
+         max-height: 45px;
+         height: 100px;
+         width: 35px;
+      }
+      #active {
+         background-color: transparent;
+         height: 41px;
+         width: 31px;
+         border: 2px solid $Smiley_33;
+      }
+      .Smiley-15 {
+         background-size: 25px;
+      }
+   }
+}
+
+.Smiley-15 {
+   background-image: url(../../images/emojis/Smiley-15.png);
+   background-color: $Smiley-15;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-177 {
+   background-image: url(../../images/emojis/Objects-177.png);
+   background-color: $Objects-177;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-140 {
+   background-image: url(../../images/emojis/Objects-140.png);
+   background-color: $Objects-140;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-37 {
+   background-image: url(../../images/emojis/Smiley-37.png);
+   background-color: $Smiley-37;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Orte-38 {
+   background-image: url(../../images/emojis/Orte-38.png);
+   background-color: $Orte-38;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Natur-110 {
+   background-image: url(../../images/emojis/Natur-110.png);
+   background-color: $Natur-110;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-153 {
+   background-image: url(../../images/emojis/Objects-153.png);
+   background-color: $Objects-153;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-41 {
+   background-image: url(../../images/emojis/Smiley-41.png);
+   background-color: $Smiley-41;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Place-39 {
+   background-image: url(../../images/emojis/Place-39.png);
+   background-color: $Place-39;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Natur-111 {
+   background-image: url(../../images/emojis/Natur-111.png);
+   background-color: $Natur-111;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-05 {
+   background-image: url(../../images/emojis/Objects-05.png);
+   background-color: $Objects-05;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+//start of the month view
+
+
+.Smiley-24 {
+   background-image: url(../../images/emojis/Smiley-24.png);
+   background-color: $Smiley-24;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-42 {
+   background-image: url(../../images/emojis/Smiley-42.png);
+   background-color: $Smiley-42;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-33 {
+   background-image: url(../../images/emojis/Smiley-33.png);
+   background-color: $Smiley-33;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-51 {
+   background-image: url(../../images/emojis/Smiley-51.png);
+   background-color: $Smiley-51;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-12 {
+   background-image: url(../../images/emojis/Smiley-12.png);
+   background-color: $Smiley-12;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-146 {
+   background-image: url(../../images/emojis/Objects-146.png);
+   background-color: $Objects-146;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-127 {
+   background-image: url(../../images/emojis/Objects-127.png);
+   background-color: $Objects-127;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-126 {
+   background-image: url(../../images/emojis/Smiley-126.png);
+   background-color: $Smiley-126;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-51 {
+   background-image: url(../../images/emojis/Smiley-51.png);
+   background-color: $Smiley-51;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-117 {
+   background-image: url(../../images/emojis/Objects-117.png);
+   background-color: $Objects-117;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Objects-172 {
+   background-image: url(../../images/emojis/Objects-172.png);
+   background-color: $Objects-172;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-47 {
+   background-image: url(../../images/emojis/Smiley-47.png);
+   background-color: $Smiley-47;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Natur-69 {
+   background-image: url(../../images/emojis/Natur-69.png);
+   background-color: $Natur-69;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-53 {
+   background-image: url(../../images/emojis/Smiley-53.png);
+   background-color: $Smiley-53;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-30 {
+   background-image: url(../../images/emojis/Smiley-30.png);
+   background-color: $Smiley-30;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.Smiley-29 {
+   background-image: url(../../images/emojis/Smiley-29.png);
+   background-color: $Smiley-29;
+   background-size: 38px;
+   background-repeat: no-repeat;
+   background-position: center;
+}

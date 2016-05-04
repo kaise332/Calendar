@@ -1,0 +1,357 @@
+p, span, a, legend, h1, h2, h3, h4, h5, h6 select, input {
+  font-family: 'Oxygen', sans-serif; }
+
+p, span, a, legend, input, select {
+  font-size: 16px;
+  line-height: 20px; }
+
+h1 {
+  font-size: 38px; }
+
+h2 {
+  font-size: 34px; }
+
+h3 {
+  font-size: 31px; }
+
+h4 {
+  font-size: 28px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 21px; }
+
+header #left-header {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  list-style-type: none; }
+  header #left-header li {
+    float: left; }
+    header #left-header li a {
+      padding: 25px;
+      background-color: #1c3246;
+      color: white;
+      text-decoration: none; }
+    header #left-header li a:hover {
+      background-color: #233f58; }
+  header #left-header #active {
+    background-color: #c45d6e;
+    padding: 55px 30px;
+    position: relative;
+    top: 30px;
+    font-weight: bold; }
+header #right-header {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  list-style-type: none; }
+  header #right-header li {
+    float: left; }
+    header #right-header li a {
+      padding: 25px;
+      background-color: #1c3246;
+      color: white;
+      text-decoration: none; }
+    header #right-header li a:hover {
+      background-color: #233f58; }
+
+.cover-photo {
+  height: 475px;
+  left: 0px;
+  top: 0px;
+  background-image: url("../../images/photo-1.jpg");
+  background-size: cover;
+  width: 80%;
+  position: absolute;
+  z-index: -10; }
+
+.blerb {
+  width: 45%;
+  max-width: 450px;
+  height: 475px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #b1daf0;
+  z-index: -10; }
+  .blerb img {
+    position: relative;
+    padding-left: 50px;
+    top: 185px;
+    float: left;
+    width: 30%; }
+
+.text {
+  margin: 0 auto;
+  top: 515px;
+  width: 750px;
+  position: relative; }
+  .text img {
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    float: left;
+    width: 40px; }
+    .text img img:active {
+      background-color: #c45d6e; }
+  .text p {
+    margin-bottom: 20px; }
+  .text h5 {
+    margin-bottom: 15px;
+    text-indent: -25px; }
+  .text select {
+    margin-bottom: 20px;
+    background-color: #c45d6e;
+    color: #1c3246;
+    font-weight: bold;
+    border: 2px solid #c45d6e; }
+  .text input {
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #1c3246;
+    font-weight: bold;
+    border: 2px solid #c45d6e; }
+  .text input:hover {
+    background-color: #c45d6e; }
+
+#left-calendar {
+  position: relative;
+  top: 180px;
+  left: 122px;
+  width: 200px;
+  line-height: 120px;
+  text-align: center; }
+  #left-calendar #active {
+    background-color: #1c3246;
+    max-height: 80px;
+    color: white;
+    vertical-align: center; }
+
+#right-calendar {
+  position: relative;
+  top: -95px;
+  left: 400px;
+  width: 700px; }
+  #right-calendar .year {
+    margin-bottom: 50px;
+    margin-right: 20px;
+    float: left; }
+    #right-calendar .year .contain-year {
+      position: relative;
+      top: 15px;
+      max-height: 45px;
+      height: 100px;
+      width: 148px; }
+  #right-calendar .month {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 80px;
+    text-align: center;
+    text-indent: -45px; }
+    #right-calendar .month .contain-month {
+      position: relative;
+      top: 15px;
+      max-height: 45px;
+      height: 100px;
+      width: 35px; }
+    #right-calendar .month #active {
+      background-color: transparent;
+      height: 41px;
+      width: 31px;
+      border: 2px solid #f45567; }
+    #right-calendar .month .Smiley-15 {
+      background-size: 25px; }
+
+.Smiley-15 {
+  background-image: url(../../images/emojis/Smiley-15.png);
+  background-color: #d8d7e5;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-177 {
+  background-image: url(../../images/emojis/Objects-177.png);
+  background-color: #eedbb0;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-140 {
+  background-image: url(../../images/emojis/Objects-140.png);
+  background-color: #7bf26e;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-37 {
+  background-image: url(../../images/emojis/Smiley-37.png);
+  background-color: #a8acf2;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Orte-38 {
+  background-image: url(../../images/emojis/Orte-38.png);
+  background-color: #c3675d;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Natur-110 {
+  background-image: url(../../images/emojis/Natur-110.png);
+  background-color: #49b0dc;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-153 {
+  background-image: url(../../images/emojis/Objects-153.png);
+  background-color: #5ca688;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-41 {
+  background-image: url(../../images/emojis/Smiley-41.png);
+  background-color: #b9f5ce;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Place-39 {
+  background-image: url(../../images/emojis/Place-39.png);
+  background-color: #b1daf0;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Natur-111 {
+  background-image: url(../../images/emojis/Natur-111.png);
+  background-color: #9fe3ff;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-05 {
+  background-image: url(../../images/emojis/Objects-05.png);
+  background-color: #f2ec73;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-24 {
+  background-image: url(../../images/emojis/Smiley-24.png);
+  background-color: #6dbdff;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-42 {
+  background-image: url(../../images/emojis/Smiley-42.png);
+  background-color: #9fe3ff;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-33 {
+  background-image: url(../../images/emojis/Smiley-33.png);
+  background-color: #f45567;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-51 {
+  background-image: url(../../images/emojis/Smiley-51.png);
+  background-color: #f48950;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-12 {
+  background-image: url(../../images/emojis/Smiley-12.png);
+  background-color: #f7f789;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-146 {
+  background-image: url(../../images/emojis/Objects-146.png);
+  background-color: #54d27e;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-127 {
+  background-image: url(../../images/emojis/Objects-127.png);
+  background-color: #64d26e;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-126 {
+  background-image: url(../../images/emojis/Smiley-126.png);
+  background-color: #00f496;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-51 {
+  background-image: url(../../images/emojis/Smiley-51.png);
+  background-color: #f48950;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-117 {
+  background-image: url(../../images/emojis/Objects-117.png);
+  background-color: #f2ec73;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Objects-172 {
+  background-image: url(../../images/emojis/Objects-172.png);
+  background-color: #4a3813;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-47 {
+  background-image: url(../../images/emojis/Smiley-47.png);
+  background-color: #f7cf16;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Natur-69 {
+  background-image: url(../../images/emojis/Natur-69.png);
+  background-color: #11d668;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-53 {
+  background-image: url(../../images/emojis/Smiley-53.png);
+  background-color: #5491a8;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-30 {
+  background-image: url(../../images/emojis/Smiley-30.png);
+  background-color: #ffa60d;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.Smiley-29 {
+  background-image: url(../../images/emojis/Smiley-29.png);
+  background-color: #3ba7cc;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center; }
