@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="styles/css/reset.css">
+	<link rel="stylesheet" href="styles/css/styles.css">
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+	<title>Emoji Calendar</title>
+
+</head>
+
+<body>
+
+	<?php include "includes/header.php" ?>
+
+	<div class="cover-photo">
+	</div>
+
+	<div class="blerb">
+		<img src="images/emojis/Object-108.png"/>
+		<img src="images/emojis/Place-39.png"/>
+	</div>
+
+	<div class="text">
+
+		<h5>Schedule Every Emotion</h5>
+		<p>
+			Emoji Calendar is a place to schedule specific or repeated events, title it with an emoji that best describes that day, and share it with others who think the same way as you. Think of it this way, everyone around the world is having a completely different day. Some may be soaking up the sun thanks to spring break, yet others are working overtime because an employee decided to call in sick as usual. Besides phrases such as "Spring Break!!!", "Work", or "Netflix & Chill", emojis allows us to break the norm of giving a title to our day in an alternative manner. Descriptions are also unnecessary here.
+			We desire to know how everyone felt on every day with a visual icon versus having to read through titles or descriptions. Express your toughest or strongest of days with the emoji.
+		</p>
+
+		<h5>Unsure How It Works?</h5>
+		<p>
+			Lets think about your schedule for today. Got anything coming up; walking the dog, babysitting, bingeing Netflix, lost a friend, going out of town, pondering your life goals?
+		</p>
+		<p>
+			Pick an emoji that best expresses your schedule. If you have more than one thing going on today, just pick one.
+		</p>
+		
+		<div class="list-emoji">
+			<img src="images/emojis/Natur-01.png" />
+			<img src="images/emojis/Natur-112.png" />
+			<img src="images/emojis/Object-108.png" />
+			<img src="images/emojis/Objects-04.png" />
+			<img src="images/emojis/Objects-17.png" />
+			<img src="images/emojis/Orte-10.png" />
+			<img src="images/emojis/Orte-77.png" />
+			<img src="images/emojis/Orte-89.png" />
+			<img src="images/emojis/Place-39.png" />
+			<img src="images/emojis/Smiley-26.png" />
+		</div>
+
+		<br><br><br><br><br>
+
+		<p>
+			Great! What time was that event schedule for?
+		</p>
+
+		<select name="times">
+			<option value="12:00a">12:00a</option>
+			<option value="12:30a">12:30a</option>
+			<option value="1:00a">1:00a</option>
+			<option value="1:30a">1:30a</option>
+			<option value="2:00a">2:00a</option>
+			<option value="2:30a">2:30a</option>
+			<option value="3:00a">3:00a</option>
+			<option value="3:30a">3:30a</option>
+			<option value="4:00a">4:00a</option>
+			<option value="4:30a">4:30a</option>
+			<option value="5:00a">5:00a</option>
+			<option value="5:30a">5:30a</option>
+			<option value="6:00a">6:00a</option>
+			<option value="6:30a">6:30a</option>
+			<option value="7:00a">7:00a</option>
+			<option value="7:30a">7:30a</option>
+			<option value="8:00a">8:00a</option>
+			<option value="8:30a">8:30a</option>
+			<option value="9:00a">9:00a</option>
+			<option value="9:30a">9:30a</option>
+			<option value="10:00a">10:00a</option>
+			<option value="10:30a">10:30a</option>
+			<option value="11:00p">11:00a</option>
+			<option value="11:30p">11:30a</option>
+			<option value="12:00p">12:00p</option>
+			<option value="12:30p">12:30p</option>
+			<option value="1:00p">1:00p</option>
+			<option value="1:30p">1:30p</option>
+			<option value="2:00p">2:00p</option>
+			<option value="2:30p">2:30p</option>
+			<option value="3:00p">3:00p</option>
+			<option value="3:30p">3:30p</option>
+			<option value="4:00p">4:00p</option>
+			<option value="4:30p">4:30p</option>
+			<option value="5:00p">5:00p</option>
+			<option value="5:30p">5:30p</option>
+			<option value="6:00p">6:00p</option>
+			<option value="6:30p">6:30p</option>
+			<option value="7:00p">7:00p</option>
+			<option value="7:30p">7:30p</option>
+			<option value="8:00p">8:00p</option>
+			<option value="8:30p">8:30p</option>
+			<option value="9:00p">9:00p</option>
+			<option value="9:30p">9:30p</option>
+			<option value="10:00p">10:00p</option>
+			<option value="10:30p">10:30p</option>
+			<option value="11:00p">11:00p</option>
+			<option value="11:30p">11:30p</option>
+		</select>
+
+		<p>
+			And finally, when is this going down?
+		</p>
+
+		<select name="date">
+			<option value="janurary">Janurary</option>
+			<option value="Feburary">Feburary</option>
+			<option value="March">March</option>
+			<option value="April">April</option>
+			<option value="May">May</option>
+			<option value="June">June</option>
+			<option value="July">July</option>
+			<option value="August">August</option>
+			<option value="September">September</option>
+			<option value="October">October</option>
+			<option value="November">November</option>
+			<option value="December">December</option>
+		</select>
+
+		<select name="date-number">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+		</select>
+
+		<p>
+			This is exciting!! Lets see it in action!
+		</p>
+
+		<input type="submit" value="submit">
+
+	</div>
+
+</body>
+
+</html>
