@@ -93,7 +93,8 @@ header #right-header {
   .text img {
     cursor: pointer;
     position: relative;
-    padding-left: 25px;
+    margin-left: 25px;
+    padding: 5px;
     float: left;
     width: 40px; }
     .text img img:active {
@@ -103,6 +104,8 @@ header #right-header {
   .text h5 {
     margin-bottom: 15px;
     text-indent: -25px; }
+  .text .selected {
+    background-color: #1c3246; }
   .text select {
     margin-bottom: 20px;
     background-color: #c45d6e;
